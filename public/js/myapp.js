@@ -17408,7 +17408,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<h1>Veronica Yan</h1>\n\n";
+  return "<div class=\"row\">\n  <div class=\"col-xs-3\">\n    <div id=\"carousel-example-generic\" class=\"carousel slide\" data-ride=\"carousel\">\n    <!-- Indicators -->\n    <ol class=\"carousel-indicators\">\n      <li data-target=\"#carousel-example-generic\" data-slide-to=\"0\" class=\"active\"></li>\n      <li data-target=\"#carousel-example-generic\" data-slide-to=\"1\"></li>\n    </ol>\n\n    <!-- Wrapper for slides -->\n    <div class=\"carousel-inner\">\n      <div class=\"item active\">\n        <img src=\"./capitol.jpg\">\n        <div class=\"carousel-caption\">\n        </div>\n      </div>\n      <div class=\"item\">\n        <img src=\"./polo.jpg\">\n        <div class=\"carousel-caption\">\n        </div>\n      </div>\n    </div>\n\n    <!-- Controls -->\n    <a class=\"left carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"prev\">\n      <span class=\"glyphicon glyphicon-chevron-left\"></span>\n    </a>\n    <a class=\"right carousel-control\" href=\"#carousel-example-generic\" role=\"button\" data-slide=\"next\">\n      <span class=\"glyphicon glyphicon-chevron-right\"></span>\n    </a>\n  </div>\n  </div>\n  <div class=\"col-xs-9\"><p>I am a senior undergraduate student pursuing Computer Science degree (Bachelor of Science) at the University of Texas at Austin.</h4></p>\n</div>\n\n\n";
   });
 
 },{"hbsfy/runtime":14}],9:[function(require,module,exports){
@@ -17432,7 +17432,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<h1>Profile</h1>";
+  return "<h2>Projects</h2>";
   });
 
 },{"hbsfy/runtime":14}],11:[function(require,module,exports){

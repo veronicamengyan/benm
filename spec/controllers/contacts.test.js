@@ -1,5 +1,5 @@
 /* jshint -W030 */
-var proxyquire = require('proxyquire'),
+/*var proxyquire = require('proxyquire'),
     modelsStub = {},
     md5Stub = function(string) { return string; },
     contacts = proxyquire('../../controllers/contacts', {
@@ -141,4 +141,4 @@ describe('Contacts Controller', function() {
             expect(res.json).calledWith({error: 'Contact not found.'});
         });
     });
-});
+});*/

@@ -1,5 +1,5 @@
 /* jshint -W030 */
-var models = require('../../app/models');
+/*var models = require('../../app/models');
 
 describe('Models', function() {
 
@@ -32,4 +32,4 @@ describe('Models', function() {
             expect(schema.gravatar.instance).to.equal('String');
         });
     });
-});
+});*/

@@ -17322,17 +17322,17 @@ module.exports = Controller = Marionette.Controller.extend({
 
     about: function() {
         App.core.vent.trigger('app:log', 'Controller: "About" route hit.');
-        var view = new AboutView();;
+        var view = new AboutView();
         this.renderView(view);
     },
     profile: function() {
         App.core.vent.trigger('app:log', 'Controller: "About" route hit.');
-        var view = new ProfileView();;
+        var view = new ProfileView();
         this.renderView(view);
     },
     contact: function() {
         App.core.vent.trigger('app:log', 'Controller: "Contact" route hit.');
-        var view = new ContactsView();;
+        var view = new ContactsView();
         this.renderView(view);
     },
 
